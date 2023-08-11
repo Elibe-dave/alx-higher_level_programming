@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 import random
-number = random.randint(-10000, 10000)
+number = random.randint(-10000, 10000i)
 # Get the last digit of the number
 last_digit = abs(number) % 10
 if number < 0:
@@ -15,4 +15,4 @@ else:
     message = "and is less than 6 and not 0"
 
 # Print the complete message
-print("Last digit of", number,"is", last_digit, message)
+print("Last digit of", number, "is", last_digit, message)
