@@ -1,18 +1,28 @@
 #!/usr/bin/python3
 """
-This prints a text with 2 new lines after each of these characters: ., ? and :
+Text Indentation Module
 """
 
 
 def text_indentation(text):
-    """This prints a text with 2 new lines after each of these characters: ., ? and :
-            text (str): text
     """
-    if not isinstance(text, str):
+    Text Indentation Method.
+    """
+    if type(text) is not str:
         raise TypeError("text must be a string")
-
-    for ch in text:
-        if ch == "." or ch == "," or ch == "?" or ch == ":":
-            print("\n")
+    lenght = len(text)
+    i = 0
+    while (i < lenght):
+        # if text[i] == '.' or text[i] == '?' or text[i] == ':':
+        if text[i] in (".", "?", ":"):
+            if (i + 1) != lenght:
+                s = text[i + 1]
+                if (s != '.' and s != '?' and s != ':'):
+                    print(text[i], end='\n\n')
+                    if s == ' ':
+                        i += 2
+                    if s != ' ':
+                        i += 1
         else:
-            print(ch, end="")
+            print(text[i], end='')
+            i += 1
