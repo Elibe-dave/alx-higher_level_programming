@@ -1,3 +1,22 @@
+At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+
+General
+What’s a database
+What’s a relational database
+What does SQL stand for
+What’s MySQL
+How to create a database in MySQL
+What does DDL and DML stand for
+How to CREATE or ALTER a table
+How to SELECT data from a table
+How to INSERT, UPDATE or DELETE data
+What are subqueries
+How to use MySQL functions
+
+
+
+
+
 My Learning Journey: Python and Scripting
 Throughout this study project, I am expected to grasp various aspects of Python programming, including fundamental concepts, scripting techniques, and best coding practices. Through a series of tasks, I ensure that I explore Python's features and its applications in diverse scenarios
 
