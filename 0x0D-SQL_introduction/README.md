@@ -17,6 +17,9 @@ How to use MySQL functions
 
 
 
+
+
+
 My Learning Journey: Python and Scripting
 Throughout this study project, I am expected to grasp various aspects of Python programming, including fundamental concepts, scripting techniques, and best coding practices. Through a series of tasks, I ensure that I explore Python's features and its applications in diverse scenarios
 
